@@ -1,0 +1,38 @@
+
+
+#main{
+	width: 100%;
+		height: 800px;
+	
+
+		background-color: #ffffff;
+	
+}
+
+
+
+
+            body,td,th {
+}
+
+    #video {
+		
+background:url(../img/demo_frame_800.png);
+background-repeat:no-repeat;
+background-position:16px 60px; 
+	z-index: 44;
+	padding-left: 26px;
+	padding-top: 70px;
+	
+		
+}
+
+
+   #demo {
+		position: absolute;
+	z-index: 55;
+	left: 724px;
+	top: 70px;
+	
+		
+}

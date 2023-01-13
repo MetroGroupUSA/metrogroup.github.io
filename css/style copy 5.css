@@ -1,0 +1,390 @@
+
+
+@import url('reset.css');
+
+
+
+
+#header{
+	height: 42px;
+	position: relative;
+	z-index: 66;
+	background: url(../img/headerbar.png) top center repeat;
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	line-height: 1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:  100%;
+	position: relative;
+	background-color: #2d2d2d;
+}
+
+
+
+
+
+
+.wrapper{
+	width: 1000px;
+	margin: 0px auto;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+#content{
+	
+	margin-bottom: 1px;
+z-index: 44;
+	font-size: 14px;
+	line-height: 24px;
+	position: relative;
+	margin-top: 0px;
+	margin-left: 88px;
+	
+	
+}
+
+
+
+
+
+#mg_logo{
+	position: absolute;
+	
+	
+	top: 0px;
+	left: 20px;
+	
+
+	z-index: 22;
+}
+
+#mg_logo:hover{
+	
+	background-color: #5f626a;
+	float: none;
+	visibility: visible;
+	
+}
+
+
+a {
+	color: #fff;
+}
+
+
+
+/* MENU ------------------------------------------------------------*/
+
+#menu{
+	width: 100%;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	
+	
+}
+
+#menu-holder{
+	
+	padding-left: 20px;
+		
+	
+}
+
+
+
+/* NAVIGATION --------------------------------------------------------*/
+
+
+#nav{
+	display: block;
+	position: relative;
+	top: 0px;
+	left: 216px;
+	height: 33px;
+	width: 660px;
+	float: none;
+	
+	visibility: visible;
+	z-index: 11;
+}
+
+#nav>li{
+	display: block;
+	float: left;
+	
+	height: 100%;
+	margin-right: 0px;
+}
+
+
+
+#nav>li>a{
+	
+	display: block;
+	font-size: 14px;
+	padding: 14px 19px 15px 19px;
+	font-weight:600;
+	color: #cdd2d8;
+	
+	text-decoration: none;
+	
+}
+
+
+
+#nav>li:hover>a{
+	color: #fff;
+	background-color: #5f626a;
+	
+
+}
+
+
+
+
+
+/* CONTACT NAVIGATION --------------------------------------------------------*/
+
+#nav2{
+	display: block;
+	position: relative;
+	top: -35px;
+	left: 830px;
+	height: 1px;
+	width: 80px;
+	float: none;
+	visibility: visible;
+	z-index: 11;
+}
+
+#nav2>li{
+	display: block;
+	float: left;
+	height: 100%;
+	margin-right: 0px;
+}
+
+
+
+#nav2>li>a{
+	display: block;
+	font-size: 12px;
+	padding: 18px 12px 12px 10px;
+	color: #cdd2d8;
+	text-decoration: none;
+	margin-top: 0px;
+}
+
+
+
+
+#nav2>li:hover>a{
+	color: #fff;
+	background-color: #5f626a;
+}
+
+
+
+#nav3{
+	display: block;
+	position: relative;
+	top: -36px;
+	left: 895px;
+	height: 1px;
+	width: 80px;
+	float: none;
+	visibility: visible;
+	z-index: 11;
+}
+
+#nav3>li{
+	display: block;
+	float: left;
+	height: 100%;
+	margin-right: 0px;
+}
+
+
+
+#nav3>li>a{
+	display: block;
+	font-size: 12px;
+	padding: 18px 29px 12px 10px;
+	color: #cdd2d8;
+	text-decoration: none;
+	margin-top: 0px;
+}
+
+
+
+
+#nav3>li:hover>a{
+	color: #fff;
+	padding: 18px 32px 12px 10px;
+	background-color: #5f626a;
+}
+
+
+
+
+
+
+
+
+
+#home_icon{
+	
+	position: absolute;
+	padding: 0;
+	
+	top: 13px;
+	left: 943px;
+	color: #fff;
+
+	z-index: 44;
+}
+
+#home_icon:hover{
+	
+	padding: 0;
+	color: #fff;
+	
+	
+}
+
+
+
+
+/* BOTTOM NAVIGATION --------------------------------------------------------*/
+
+#b-nav{
+	display: block;
+	
+	position: relative;
+	top: -37px;
+	left: 73px;
+	height: 6px;
+	width: 940px;
+	float: none;
+	visibility: visible;
+	z-index: 11;
+}
+
+#b-nav>li{
+	display: block;
+	float: left;
+	height: 100%;
+	margin-right: 28px;
+}
+
+
+
+
+/* COLOR TEXT --------------------------------------------------------*/
+#b-nav>li>a{
+	display: block;
+	padding: 6px 7px 6px 6px;
+	font-size: 11px;
+	color: #bbbaba;
+	text-decoration: none;
+	margin-top: 7px;
+}
+
+
+#b-nav>li:hover>a{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+/* FOOTER - COLS ------------------------------------------------------------*/
+
+#footer{
+	position: relative;
+	color: #fff;
+	
+	background-color: #2a2d30;
+	background-image: url(../img/footer.jpg);
+	background-repeat: repeat;
+	background-position: center top;
+	height: 158px;
+}
+
+/* FOOTER - COLS ------------------------------------------------------------*/
+
+#footer-cols{
+	display: block;
+	padding-left: 130px;
+	overflow: hidden;
+	color: #bbbaba;
+	line-height: 24px;
+}
+
+
+
+/* FOOTER - SPACING FROM LEFT ------------------------------------------------------------*/
+#footer-cols li.col{
+	display: block;
+	font-size: 11px;
+	width: 132px;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	color: #f8b712;
+}
+
+#footer-cols li.col>h6{
+	font-size: 12px;
+	color: f8b712;
+		font-weight:500;
+	margin-top: 15px;
+	margin-bottom: 4px;
+}
+
+
+
+#footer-cols li.col ul li.page_item{
+	
+	
+	font-size: 11px;
+	line-height: 18px;
+	
+	background: url(../img/footer-bullet.png) no-repeat 0px 5px;
+	z-index: 33;
+
+	height: 18px;
+}
+
+
+#footer-cols li.col ul li a{
+	text-decoration: none;
+	padding-left:12px;
+	color: #b3b1b1;
+}
+
+#footer-cols li.col ul li a:hover{
+	
+	color: #fff;
+	
+	
+	
+}

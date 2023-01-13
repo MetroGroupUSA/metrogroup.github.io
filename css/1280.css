@@ -1,0 +1,65 @@
+
+
+@import url('reset.css');
+
+
+
+
+#header{
+	height: 42px;
+	position: relative;
+	z-index: 66;
+	background: url(../img/headerbar.png) top center repeat;
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	line-height: 1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:  100%;
+	min-width: 1024px;
+	position: relative;
+	
+}
+
+
+
+
+
+
+.wrapper{
+	width: 1024px;
+	margin: 0px auto;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+#content{
+	
+	margin-bottom: 1px;
+z-index: 44;
+	font-size: 14px;
+	line-height: 24px;
+	position: relative;
+	margin-top: 0px;
+	margin-left: 88px;
+	
+	
+}
+
+
+
+
+	
+}
